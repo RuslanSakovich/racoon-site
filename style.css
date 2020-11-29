@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
@@ -10,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
 }
+
 
 .container {
   max-width: 928px;
@@ -44,6 +46,35 @@ body {
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
+}
+
+ nav .site-navigation {
+  margin-top: 50px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site-navigation  li {
+  margin: 0px;  
+  text-align: center;
+  list-style: none;
+  box-shadow: 0px 0px 5px 0px black ;
+  border-radius: 3px;
+}
+
+.site-navigation  li:hover {
+   background-color: #424a57;  
+}
+
+.site-navigation  a {
+  padding: 0px 50px 0px 50px;
+  margin: 0px; 
+  text-decoration: none;
+} 
+
+.site-navigation  a:hover {
+  color:#c928d1;
 }
 
 .hero-image {
